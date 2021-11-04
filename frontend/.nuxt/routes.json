@@ -1,0 +1,58 @@
+[
+  {
+    "name": "about",
+    "path": "/about",
+    "component": "/home/user42/Documents/nuxt_resa/frontend/pages/about/index.vue",
+    "chunkName": "pages/about/index",
+    "_name": "_21164098"
+  },
+  {
+    "name": "admin",
+    "path": "/admin",
+    "component": "/home/user42/Documents/nuxt_resa/frontend/pages/admin/index.vue",
+    "chunkName": "pages/admin/index",
+    "_name": "_2e1bd5da"
+  },
+  {
+    "name": "posts",
+    "path": "/posts",
+    "component": "/home/user42/Documents/nuxt_resa/frontend/pages/posts/index.vue",
+    "chunkName": "pages/posts/index",
+    "_name": "_0aab0d44"
+  },
+  {
+    "name": "admin-auth",
+    "path": "/admin/auth",
+    "component": "/home/user42/Documents/nuxt_resa/frontend/pages/admin/auth/index.vue",
+    "chunkName": "pages/admin/auth/index",
+    "_name": "_62b8755a"
+  },
+  {
+    "name": "admin-new-post",
+    "path": "/admin/new-post",
+    "component": "/home/user42/Documents/nuxt_resa/frontend/pages/admin/new-post/index.vue",
+    "chunkName": "pages/admin/new-post/index",
+    "_name": "_55621bd0"
+  },
+  {
+    "name": "admin-postId",
+    "path": "/admin/:postId",
+    "component": "/home/user42/Documents/nuxt_resa/frontend/pages/admin/_postId/index.vue",
+    "chunkName": "pages/admin/_postId/index",
+    "_name": "_0b213105"
+  },
+  {
+    "name": "posts-id",
+    "path": "/posts/:id",
+    "component": "/home/user42/Documents/nuxt_resa/frontend/pages/posts/_id/index.vue",
+    "chunkName": "pages/posts/_id/index",
+    "_name": "_8a68956e"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/home/user42/Documents/nuxt_resa/frontend/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_25efeecc"
+  }
+]
