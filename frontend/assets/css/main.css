@@ -1,0 +1,15 @@
+.adlin-btn {
+    background-color: rgb(39, 145, 216);
+    border: 0;
+    border-radius: 8%;
+    color: white;
+    font-size: 18px;
+    box-shadow: 0px 3px rgb(29, 117, 175);
+    cursor: pointer;
+    padding: 10px;
+}
+
+.adlin-btn:hover {
+    transform: translate(0px, 3px);
+    box-shadow: none;
+}

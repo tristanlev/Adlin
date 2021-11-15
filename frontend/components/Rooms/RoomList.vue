@@ -3,11 +3,12 @@
         <RoomPreview
         v-for="(room, index) in rooms"
         :key="index"
-        :id="room.id"
-        :is-admin="isAdmin"
+        :id="room.name"
         :title="room.name"
         :previewText="room.description"
         :capacity="room.capacity"
+        :equipments="room.equipements"
+        thumbnail="https://sonovision.com/wp-content/uploads/sites/2/2018/06/SallesReuPanasonic-1024x576.jpeg"
         />
     </section>
 </template>
@@ -20,10 +21,6 @@ export default {
         RoomPreview
     },
     props: {
-        isAdmin: {
-            type: Boolean,
-            default: false
-        },
         rooms: {
             type: Array,
             required: true

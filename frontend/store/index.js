@@ -8,7 +8,7 @@ const createStore = () => {
         },
         mutations: {
             setRooms(state, rooms) {
-                state.loadedRooms = rooms[0].rooms;
+                state.loadedRooms = rooms;
             }
         },
         actions: {
@@ -16,9 +16,8 @@ const createStore = () => {
                 return axios.get('http://localhost:3001/api/rooms/')
                     .then(res => {
                         const roomsArray = []
-                        for (const key in res.data) {
-                            console.log(res.data[key])
-                            roomsArray.push({ ...res.data[key], id: key})
+                        for (let i = 0; i < res.data.rooms.length; i++) {
+                            roomsArray.push({...res.data.rooms[i], id: i})
                         }
                         vuexContext.commit('setRooms', roomsArray)
                     })
